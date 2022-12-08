@@ -1,4 +1,7 @@
-# Application
+# Module 21 - KaseiCoin Toke Crowdsale
+
+![image](https://user-images.githubusercontent.com/108433370/206333576-ebec15f2-80f7-44f3-a493-0aae943b8979.png)
+
 
 ## Challenge: Martian Token Crowdsale
 
@@ -200,3 +203,11 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
     * When sending ether to the contract, make sure that you meet the contract’s `goal`. Then, finalize the sale using the `Crowdsale` contract's `finalize` function. To finalize the sale, `isOpen` must return false (`isOpen` comes from `TimedCrowdsale` and checks to see whether the `close` time has passed yet). If you set the `goal` to 300 ether, for example, you may need to purchase tokens from multiple accounts in order to meet the goal. If you run out of pre-funded accounts in Ganache, you can create a new workspace.
 
     * View your tokens in MetaMask. In MetaMask, click Add Token, then click Custom Token,  and enter the token contract’s address. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallet as more than a few wei worth.
+
+
+## Technologies
+This project utilizes Solidity 0.5.0:
+
+Remix - This website acts as a workspace where you can write, compile, deploy, and interact with your solidity code.
+
+MetaMask - MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications
